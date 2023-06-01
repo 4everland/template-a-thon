@@ -1,6 +1,6 @@
 <template>
   <div
-    style="min-width: 830px"
+    style="min-width: 860px"
     :class="{
       'mr-5': asMobile,
     }"

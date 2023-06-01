@@ -4,7 +4,7 @@
     :class="{
       'mr-5': asMobile,
     }"
-    style="min-width: 850px"
+    style="min-width: 860px"
   >
     <div class="flex-1">
       <border-wrap>
