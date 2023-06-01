@@ -1,6 +1,6 @@
 <template>
   <div
-    style="min-width: 860px"
+    style="min-width: 870px"
     :class="{
       'mr-5': asMobile,
     }"
@@ -15,7 +15,7 @@
         v-for="(it, i) in list"
         :key="i"
       >
-        <h2 class="pink-1" :class="asMobile ? 'fz-25' : 'fz-30'">
+        <h2 class="pink-1" :class="asMobile ? 'fz-22' : 'fz-30'">
           {{ it.title }}
         </h2>
         <div class="op-8 fz-14 lh-15 mt-5" style="min-height: 90px">
