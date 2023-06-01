@@ -13,7 +13,7 @@ import SectionSocial from "./section-social.vue";
   <div class="pos-s top-0 z-100 bg-1">
     <div class="main">
       <header class="al-c pt-4 pb-4">
-        <a href="https://www.4everland.org" class="mr-auto">
+        <a href="https://www.4everland.org" target="_blank" class="mr-auto">
           <img src="/img/logo.png" height="30" />
         </a>
         <span
