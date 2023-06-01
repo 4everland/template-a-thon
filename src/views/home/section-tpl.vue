@@ -15,7 +15,7 @@
         v-for="(it, i) in list"
         :key="i"
       >
-        <h2 class="pink-1" :class="asMobile ? 'fz-25' : 'fz-35'">
+        <h2 class="pink-1" :class="asMobile ? 'fz-25' : 'fz-30'">
           {{ it.title }}
         </h2>
         <div class="op-8 fz-14 lh-15 mt-5" style="min-height: 90px">
@@ -53,7 +53,7 @@ export default {
           link: "https://4everblog.4everland.app/",
         },
         {
-          title: "Chat GPT",
+          title: "ChatGPT Demo",
           desc: "ChatGPT (Beta), API Key required.",
           github: "https://github.com/Recommended-Templates/chatgpt-tpl",
           link: "https://chat-1.4everland.app/",
