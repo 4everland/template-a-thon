@@ -1,0 +1,79 @@
+@import 'flex';
+@import 'box';
+@import 'pos';
+@import 'text';
+@import 'col';
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Light-6.otf')
+}
+
+body {
+  font-family: Montserrat, serif; // 
+}
+body, .bg-1 {
+  background: #0e0e2c;
+  color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  max-width: 1000px;
+  // min-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.hover-1, .link, a {
+  cursor: pointer;
+  &:hover {
+    opacity: .9;
+  }
+}
+.link, a {
+  color: #52adc9;
+}
+a {
+  text-decoration: none;
+}
+.bg-pink-1 {
+  background: linear-gradient(90deg, #d7aef5, #9fa3f4);
+  color: white;
+}
+.pink-1, .nav-btn:active {
+  color: #FDA9FF;
+}
+.white-8 {
+  color: rgba($color: #fff, $alpha: 0.7);
+}
+.title-1 {
+  margin: 30px 0 25px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);;
+}
+
+.bg-btn {
+  background: linear-gradient(95.1deg, #EEADFA -12.83%, #99A3F9 98.33%);
+  border-radius: 24px;
+  padding: 26px;
+  padding-right: 20px;
+  color: #fff;
+  &:nth-child(2) {
+    background: linear-gradient(95.1deg, #99A3F9 -12.83%, #459AF8 98.33%);;
+  }
+}
+.hover-2 {
+  cursor: pointer;
+  transform-origin: center;
+  transition: all ease 200ms;
+  &:hover {
+    transform: scale(.95);
+  }
+}
+
+video {
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
