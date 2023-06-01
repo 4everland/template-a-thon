@@ -43,7 +43,7 @@ const list = [
   },
   {
     ques: "Any other activities to win rewards?",
-    ans: "Welcome to submit great template suggestions on 4EVERLAND Discord and win T4EVER .",
+    ans: "Welcome to submit great template suggestions on 4EVERLAND <a href='http://discord.gg/4everland' target='_blank'>Discord</a> and win T4EVER .",
   },
   {
     ques: "Who can participate in the Template-a-thon?",
