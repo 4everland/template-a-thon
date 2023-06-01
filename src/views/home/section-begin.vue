@@ -5,8 +5,10 @@
     }"
   >
     <div class="flex-2">
-      <border-wrap>
-        <h1 class="fz-40 pink-1 pos-a z-10">TEMPLATE-A-THON</h1>
+      <border-wrap :min-height="asMobile ? '130px' : '180px'">
+        <h1 class="pink-1 pos-a z-10" :class="asMobile ? 'fz-30' : 'fz-40'">
+          TEMPLATE-A-THON
+        </h1>
         <div class="fz-25 op-9 pos-a btm-0 left-0 z-10">
           Starting June 1, 2023
         </div>
