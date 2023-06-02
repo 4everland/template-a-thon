@@ -1,7 +1,7 @@
 <template>
   <div :class="'wrap-' + color">
     <div class="bg-1">
-      <div class="bd-1" :style="{ background }">
+      <div class="bd-1" :style="{ background, padding }">
         <div
           class="pos-r"
           :style="{
@@ -27,6 +27,7 @@ export default {
       default: "180px",
     },
     background: String,
+    padding: String,
   },
 };
 </script>
