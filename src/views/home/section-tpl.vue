@@ -50,19 +50,22 @@ export default {
         {
           title: "Web3 Page",
           desc: "Consolidates your social media interactions from various channels into a single page.",
-          github: "https://github.com/Recommended-Templates/web3-blog",
+          github:
+            "https://github.com/4everland/Templates/tree/main/Templates/web3-blog",
           link: "https://4everblog.4everland.app/",
         },
         {
           title: "ChatGPT Demo",
           desc: "ChatGPT (Beta), API Key required.",
-          github: "https://github.com/Recommended-Templates/chatgpt-tpl",
+          github:
+            "https://github.com/4everland/Templates/tree/main/Templates/chatgpt-tpl",
           link: "https://chat-1.4everland.app/",
         },
         {
           title: "Linkland",
           desc: "Simplify sharing your social media and other information with a single link.",
-          github: "https://github.com/Recommended-Templates/linkland",
+          github:
+            "https://github.com/4everland/Templates/tree/main/Templates/linkland",
           link: "https://4everlinkland.4everland.app/",
         },
       ],
