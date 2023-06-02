@@ -8,7 +8,7 @@
     <div class="d-flex">
       <border-wrap
         min-height="160px"
-        padding="30px 20px"
+        padding="30px 10px"
         class="flex-1 ta-c"
         :class="{
           'mr-5': i < list.length - 1,
