@@ -49,6 +49,9 @@ export default {
           height: 40,
         },
         {
+          img: "sup-aws.jpg",
+        },
+        {
           img: "sup-perma.png",
           height: 68,
         },
