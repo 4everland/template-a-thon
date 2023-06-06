@@ -32,7 +32,7 @@
               <div class="pos-center">
                 <!-- <img src="/mov/1.gif" height="134" /> -->
                 <video
-                  src="/mov/1.webm"
+                  src="https://tpl.4everland.store/img/1.webm"
                   height="134"
                   autoplay
                   loop
@@ -51,7 +51,7 @@
               <div class="pos-center">
                 <!-- <img src="/mov/2.gif" :height="asMobile ? 134 : 190" /> -->
                 <video
-                  src="/mov/2.webm"
+                  src="https://tpl.4everland.store/img/2.webm"
                   :height="asMobile ? 134 : 190"
                   autoplay
                   loop
@@ -76,9 +76,9 @@
     <div class="flex-1" :class="asMobile ? 'mt-5' : 'ml-5'">
       <border-wrap color="blue" background="none" v-if="!asMobile">
         <div class="pos-center">
-          <!-- <img src="/mov/2.webm" height="190" /> -->
+          <!-- <img src="https://tpl.4everland.store/img/2.webm" height="190" /> -->
           <video
-            src="/mov/2.webm"
+            src="https://tpl.4everland.store/img/2.webm"
             height="190"
             autoplay
             loop
