@@ -78,7 +78,7 @@
         <div class="pos-center">
           <!-- <img src="https://tpl.4everland.store/img/2.webm" height="190" /> -->
           <video
-            src="https://tpl.4everland.store/img/2.webm"
+            src="https://tpl.4everland.store/img/1.webm"
             height="190"
             autoplay
             loop
