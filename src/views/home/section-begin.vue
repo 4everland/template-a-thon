@@ -30,7 +30,15 @@
               background="none"
             >
               <div class="pos-center">
-                <img src="/mov/1.gif" height="134" />
+                <!-- <img src="/mov/1.gif" height="134" /> -->
+                <video
+                  src="/mov/1.webm"
+                  height="134"
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                ></video>
               </div>
             </border-wrap>
           </el-col>
@@ -41,7 +49,15 @@
               background="none"
             >
               <div class="pos-center">
-                <img src="/mov/2.gif" :height="asMobile ? 134 : 190" />
+                <!-- <img src="/mov/2.gif" :height="asMobile ? 134 : 190" /> -->
+                <video
+                  src="/mov/2.webm"
+                  :height="asMobile ? 134 : 190"
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                ></video>
               </div>
             </border-wrap>
           </el-col>
@@ -60,7 +76,15 @@
     <div class="flex-1" :class="asMobile ? 'mt-5' : 'ml-5'">
       <border-wrap color="blue" background="none" v-if="!asMobile">
         <div class="pos-center">
-          <img src="/mov/1.gif" height="190" />
+          <!-- <img src="/mov/2.webm" height="190" /> -->
+          <video
+            src="/mov/2.webm"
+            height="190"
+            autoplay
+            loop
+            muted
+            playsinline
+          ></video>
         </div>
       </border-wrap>
       <div class="mt-5">
