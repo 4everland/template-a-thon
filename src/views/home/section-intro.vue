@@ -22,13 +22,14 @@
         <div class="pos-a left-0 z-10">
           <h3 class="pink-1">How to join?</h3>
           <div class="mt-4 fz-13 lh-15 white-8">
-            Join by logging in to GitHub, locating our 4EVERLAND Templates
-            repository, and submitting your pull request (PR) following the
+            Please read the
             <a href="https://github.com/4everland/Templates" target="_blank"
               >README.md</a
             >
-            guidelines. Don't forget to apply for grants after your submission
-            to win T4EVER. For more details, please visit
+            to familiarize yourself with the template creation guidelines. Once
+            you've created the template and placed it in your GitHub repository,
+            fill out the form and submit your application to win T4EVER. For
+            more details, please visit
             <a href="https://link.medium.com/a9s6LUTLgAb" target="_blank"
               >here</a
             >.
