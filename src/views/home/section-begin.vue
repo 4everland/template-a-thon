@@ -95,7 +95,7 @@
         >
           <div>
             <h3 class="fz-25">Join Now</h3>
-            <p class="mt-2 op-8">Submit template</p>
+            <p class="mt-2 op-8">Create template</p>
           </div>
           <img src="/img/ic-right.svg" height="18" class="d-b ml-auto" />
         </a>
